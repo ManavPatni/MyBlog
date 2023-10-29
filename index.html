@@ -1,33 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--Links-->
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utils.css">
-
-    <!--Title-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>MyBlog</title>
 </head>
+
 <body>
-    <!--NavBar starts-->
-    <nav class="navigation">
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span>MyBlog</span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact.html">Contact me</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search Article">
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
 
     </nav>
-    <!--NavBar ends-->
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="m-auto content max-width-1 my-2">
+        <div class="content-left">
+            <h1>About Me</h1>
+            <p>Hey there, tech enthusiasts! Welcome to my blog, where I share my journey through the fascinating world of technology. My name is Manav S. Patni, and I hail from the vibrant city of Ichalkaranji. I was born on December 13, 2005, and ever since then, my curiosity for all things tech has known no bounds</p>
+            <br>
+            <h2>Embracing the World of Coding</h2>
+            <p>At a young age, I stumbled upon the world of coding, and there's been no turning back. Python, with its simplicity and versatility, quickly became my programming language of choice. I've dived deep into Python's world, exploring everything from web development to data science. It's incredible how this language allows you to create and innovate.</p>
+            <p>But I believe that learning never stops, and that's why I'm always on the lookout for new challenges. Currently, I'm on an exciting journey to master Android Development and C programming. These skills are the backbone of creating mobile apps and software, and I can't wait to see what I'll build with them in the future.</p>
+            <br>
+            <h2>Gaming: More Than Just Entertainment</h2>
+            <p>When I'm not immersed in lines of code, you'll often find me in the virtual world of online gaming. Gaming isn't just about entertainment for me; it's a space to learn, connect with friends, and understand the technology behind it all. From the intricate world of gaming graphics to the architecture that supports massive online multiplayer experiences, there's so much to explore and learn.</p>
+            <br>
+            <h2>A Passion for Technology</h2>
+            <p>Beyond coding and gaming, I have an insatiable appetite for technology. I'm always eager to know more about emerging technologies and how they are reshaping our world. From AI and machine learning to the latest advancements in robotics and virtual reality, I'm passionate about staying up to date and sharing my insights with others.
+            <p>My blog is a reflection of my journey through the digital landscape, and I invite you to join me in this exciting adventure. We'll explore the latest tech trends, learn from my coding experiences, and dive into the world of gaming and beyond.</p>
+            <br>    
+            <p>Feel free to connect with me, share your thoughts, or ask questions. Let's embark on this tech-savvy journey together and discover the endless possibilities that the world of technology has to offer.</p>
+            <br>   
+            <p>Stay tuned for regular updates, and together, we'll unravel the mysteries of the digital universe!</p>    
+                
+        </div>
+        <div class="content-right">
+            <img src="img/home.svg" alt="iBlog">
+        </div>
+    </div>
 
-    <!--Main Content starts-->
-    <div class="content">
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="home-articles max-width-1 m-auto font2">
+        <h2>Featured Articles</h2>
+        <div class="year-box adjust-year">
+            <div>
+                <h3>Year </h3>
+            </div>
+            <div>
+                <input type="radio" name="year" id=""> 2020
+            </div>
+            <div>
+                <input type="radio" name="year" id=""> 2021
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/3.png" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/1.png" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/2.png" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/1.png" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/11.svg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/3.png" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/2.png" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/11.svg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="/blogpost.html">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+            </div>
+        </div>
 
     </div>
-    <!--Main Content ends-->
 
-    <!--Footer starts-->
     <div class="footer">
-
+        <p>Copyright &copy; MyBlog.com </p>
     </div>
-    <!--Footer ends-->
 </body>
+
 </html>
