@@ -54,13 +54,16 @@
   position: relative;
 }
 
+.content-left{
+  color: white;
+}
+
 .content::after {
   content: "";
-  background-image: url("../img/11.svg");
+  background-image: url("../img/home.jpg");
   position: absolute;
   width: 100%;
   height: inherit;
-  opacity: 0.15;
   border-radius: 12px;
 }
 
